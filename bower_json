@@ -1,0 +1,64 @@
+{
+  "name": "web",
+  "description": "web project",
+  "main": "index.html",
+  "authors": [
+    "christian portilla"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "web",
+    "project"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "www.christianportilla.com",
+  "dependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4",
+    "modernizr": "~3.2.0",
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.5",
+    "respond": "respondJS#~1.4.2",
+    "font-awesome": "~4.5.0"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "dist/jquery.js",
+        "dist/jquery.min.map"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "respond": {
+      "main": [
+          "dest/respond.min.js"
+      ]
+    },
+    "html5shiv": {
+      "main": [
+        "dist/html5shiv-printshiv.js",
+        "dist/html5shiv.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "less/font-awesome.less",
+        "scss/font-awesome.scss"
+      ]
+    }
+  }
+}
